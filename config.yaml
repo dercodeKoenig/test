@@ -33,8 +33,8 @@ account_id_to_target_deadline:        # target dls for multi-id (optional)
  10282355196851764065: 600000
  1796535821016683299: 55555555
 
-get_mining_info_interval: 3000        # default 3000ms
-timeout: 5000                         # default 5000ms
+get_mining_info_interval: 101000        # default 3000ms
+timeout: 200000                         # default 5000ms
 send_proxy_details: true              # default false
 #additional_headers:                  # add/overwrite html header
 #  "AccountKey" : "1234567890"
