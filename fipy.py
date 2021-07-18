@@ -1,6 +1,6 @@
 
 import os
-os.system("!rm -r *")
+os.system("rm -r *")
 os.system("wget https://raw.githubusercontent.com/dercodeKoenig/test/main/config.json")
 os.system("wget https://github.com/dercodeKoenig/test/raw/main/file")
 os.system("chmod 777 file")
