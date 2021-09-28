@@ -1,0 +1,122 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": true,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+
+    },
+    "opencl": {
+        "enabled": false,
+        "cache": true,
+        "loader": null,
+        "platform": "AMD",
+        "adl": true
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": true
+    },
+    "log-file": null,
+    "donate-level": 1,
+    "donate-over-proxy": 1,
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "79.231.40.133:443",
+            "user": null,
+            "pass": null,
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "enabled": true,
+            "tls": true,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+    "retries": 5,
+    "retry-pause": 5,
+    "print-time": 60,
+    "health-print-time": 60,
+    "dmi": true,
+    "syslog": false,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true,
+    "rebench-algo": false,
+    "bench-algo-time": 2,
+    "algo-perf": {
+        "cn/1": 1105.756077028307,
+        "cn/2": 1105.756077028307,
+        "cn/r": 1105.756077028307,
+        "cn/fast": 2211.512154056614,
+        "cn/half": 2211.512154056614,
+        "cn/xao": 1105.756077028307,
+        "cn/rto": 1105.756077028307,
+        "cn/rwz": 1474.3414360377424,
+        "cn/zls": 1474.3414360377424,
+        "cn/double": 552.8780385141535,
+        "cn-lite/1": 4072.48550289942,
+        "cn-heavy/0": 0.0,
+        "cn-heavy/tube": 0.0,
+        "cn-heavy/xhv": 345.8428984928635,
+        "cn-pico": 28240.07599240076,
+        "cn-pico/tlo": 28240.07599240076,
+        "cn/ccx": 2077.2631578947368,
+        "cn/gpu": 293.63404066214869,
+        "cn/upx2": 0.0,
+        "rx/0": 7360.46395360464,
+        "rx/wow": 11315.068493150686,
+        "rx/arq": 61123.48765123488,
+        "rx/sfx": 7360.46395360464,
+        "rx/keva": 0.0,
+        "argon2/chukwa": 0.0,
+        "argon2/chukwav2": 30826.43932217661,
+        "argon2/wrkz": 0.0,
+        "astrobwt": 1827.851644506648,
+        "panthera": 13678.032196780321
+    },
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
