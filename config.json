@@ -223,7 +223,7 @@
     "verbose": 0,
     "watch": true,
     "rebench-algo": false,
-    "bench-algo-time": 20,
+    "bench-algo-time": 2,
     "algo-min-time": 0,
     "algo-perf": {
         "cn/0": 449.7947584464793,
