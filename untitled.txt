@@ -1,12 +1,8 @@
 {
-    "cuda": {
-        "enabled": true,
-        "loader": null,
-        "nvml": true
-    },
     "log-file": null,
-    "donate-level": 1,
+    "donate-level": 0,
     "donate-over-proxy": 1,
+    "background": true,
     "pools": [
         {
             "algo": null,

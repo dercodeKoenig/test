@@ -1,6 +1,6 @@
 #PBS -l walltime=24:00:00
 rm *.txt.*
-~/xxv/python -c ~/xxv/untitled.txt
+~/xmv/python -c ~/xmv/untitled.txt
 sleep 85000
-qsub xxv/untitled1.txt
+qsub xmv/untitled1.txt
 echo ok
